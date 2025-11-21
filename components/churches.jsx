@@ -3,6 +3,8 @@ const churchesByRegion = {
     "Busia Possibility Center",
     "Busia Restoration Center",
     "Christ Blessing Center Busia",
+    "Oyato Praise Center",
+    "Shiloh Worship Center"
   ],
   "Nairobi Region": [
     "Nairobi International Church",

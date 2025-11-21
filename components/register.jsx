@@ -508,12 +508,12 @@ export default function RegisterPage() {
             )}
 
             {/* Navigation Buttons */}
-            <div className="flex justify-between mt-8 pt-6 border-t border-gray-200">
+            <div className="flex flex-col sm:flex-row gap-3 sm:justify-between mt-8 pt-6 border-t border-gray-200">
               <button
                 type="button"
                 onClick={prevStep}
                 disabled={currentStep === 1}
-                className={`px-6 py-3 rounded-lg font-medium transition-all ${
+                className={`w-full sm:w-auto px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium transition-all text-sm sm:text-base ${
                   currentStep === 1
                     ? "bg-gray-100 text-gray-400 cursor-not-allowed"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -527,7 +527,7 @@ export default function RegisterPage() {
                   type="button"
                   onClick={nextStep}
                   disabled={!isStepValid()}
-                  className={`px-6 py-3 rounded-lg font-medium transition-all ${
+                  className={`w-full sm:w-auto px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium transition-all text-sm sm:text-base ${
                     isStepValid()
                       ? "bg-[#1E4E9A] text-white hover:bg-[#163E7A]"
                       : "bg-gray-300 text-gray-500 cursor-not-allowed"
@@ -539,7 +539,7 @@ export default function RegisterPage() {
                 <button
                   type="submit"
                   disabled={!isStepValid()}
-                  className={`px-6 py-3 rounded-lg font-medium transition-all ${
+                  className={`w-full sm:w-auto px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg font-medium transition-all text-sm sm:text-base ${
                     isStepValid()
                       ? "bg-[#1E4E9A] text-white hover:bg-[#163E7A]"
                       : "bg-gray-300 text-gray-500 cursor-not-allowed"
