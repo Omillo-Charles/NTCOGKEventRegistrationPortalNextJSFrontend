@@ -15,7 +15,7 @@ export default function Navbar() {
               />
             </div>
             <div>
-              <span className="text-xl font-bold text-[#E02020]">NTCG</span>
+              <span className="text-xl font-bold text-[#E02020]">NTCoG</span>
               <span className="text-sm text-[#1E4E9A] block leading-tight font-medium">
                 Event Registration
               </span>
